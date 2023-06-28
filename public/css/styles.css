@@ -1,0 +1,71 @@
+.body {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.app {
+    display: flex;
+}
+
+.sidebar {
+    height: 100vh;
+    width: 30vw;
+}
+
+.page {
+    height: 100vh;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.request-button {
+    display: block;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 120px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: aqua;
+    text-align: center;
+    font-size: 22px;
+}
+
+.response-area {
+    /*position: relative;*/
+    display: flex;
+    width: 70vw;
+    overflow: auto;
+}
+
+.response-area__container {
+    margin-bottom: 0;
+
+}
+
+.collapse-button {
+
+    border: none;
+    background-color: aquamarine;
+    height: 20px;
+    /*top: -20px;*/
+    /*z-index: 10;*/
+}
+
+.response-area--collapsed {
+    height: 0;
+}
+
+.response-area__item {
+    width: 150px;
+    height: 150px;
+    background-color: lawngreen;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+}
